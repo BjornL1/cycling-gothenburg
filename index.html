@@ -26,15 +26,67 @@
             <div class="container">
                 <img src="assets/images/bike-background-image.jpg" alt="Bikebackground">
 
-                <h2 class="top-left">Pick-up service</h2>
-                <h2 class="central">Rent a bike</h2>
-                <h2 class="top-right">Customized trips</h2>
-                <div class="beside">Extra info</div>
-            </div>
+                <h2 class="top-left"> -Pick-up service-</h2>
+                <h2 class="central">-Rent a bike-</h2>
+                <h2 class="top-right">-Customized trips-</h2>
+                <div class="fixed-tours">
+                    <p>Fixed tours Saturdays & Sundays (May - Sep), click <a href="#here">here</a>
+                    </p>
+
+
+
+                </div>
         </main>
     </section>
 
     <!--Section for routes-->
+
+    <h2 id="here">Fixed tours</h2>
+    <p>There are two different tours that is recurrent Saturdays and Sundays between May and September. On Saturdays the
+        Gothenburg city tour is scheduled whereas the Sunday trip is a one-way route from Gothenburg to the beautiful
+        southern archipleggio (you are being transported back on our bus to the starting point once the final
+        destination is
+        reached). In each tour three different stops are scheduled and "swedish fika" will be served in the second stop.
+    </p>
+
+    <h3 class="signup-form">Sign up</h3>
+    <p> Tours </p>
+
+    <form method="post" action="https://formdump.codeinstitute.net/">
+        <label for="fname">First name</label>
+        <input type="text" name="fname" id="fname" /><br>
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname" /><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" /><br>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Gothenburg city</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Gothenburg - archipleggio</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Both tours</label>
+
+        <p> Bikes (for more than 4 people please contact us for on +46) </p>
+        <label>Standard 28":</label>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity-one" min="1" max="5"><br>
+
+        <label>Standard 26":</label>
+        <label for="bike-one">Quantity (between 1 and 5):</label>
+        <input type="number" id="bike-one" name="quantity-two" min="1" max="5"><br>
+
+        <label>E-bike 28":</label>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity-three" min="1" max="5"><br>
+
+        <label>E-bike 26":</label>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity-four" min="1" max="5"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d34093.52975685529!2d11.941233033721346!3d57.71908021177263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x464ff3501190f3f1%3A0x260190792e5efe61!2sLindholmen%2C%20G%C3%B6teborg!3m2!1d57.7077599!2d11.9382865!4m5!1s0x464ff45846a117bf%3A0x199f5c93ed77a6a8!2sGamlestaden%20G%C3%B6teborg!3m2!1d57.7295893!2d12.0068463!4m5!1s0x464ff47221f88c37%3A0x5823664cf8980292!2sMunkeb%C3%A4ckstorget%2C%20416%2073%20G%C3%B6teborg!3m2!1d57.7191352!2d12.0259701!5e0!3m2!1ssv!2sse!4v1691443010907!5m2!1ssv!2sse"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -47,6 +99,38 @@
             href="https://www.openstreetmap.org/#map=13/57.7071/11.9246">Visa större karta</a></small>
     <!--Section for footer-->
 
+    <h2>Rent a bike</h2>
+    <p>We offer rental bikes in 2 various sizes as well as e-bikes, bike helmets are included in the prize. To rent a
+        bike
+        please contact us at the latest 2 hours before the planned tour on +46 1234 1234 </p>
+    <table>
+        <tr>
+            <th>Size (tires)</th>
+            <th>E-bike</th>
+            <th>Cost/h (SEK)</th>
+
+        </tr>
+        <tr>
+            <td>28"</td>
+            <td></td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>26"</td>
+            <td></td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>28"</td>
+            <td>X</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>26"</td>
+            <td>X</td>
+            <td>200</td>
+        </tr>
+    </table>
 
     <footer>
         <ul class="social-networks">
