@@ -11,127 +11,166 @@
 </head>
 
 <body>
+
     <!--Section for main image and icons and animations-->
     <div class="header">
         <h1>Gothenburg cycling trips</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Sign-up</a>
+            <a href="#">Rent a bike</a>
+            <a href="#">About</a>
             <a href="#">Contact</a>
         </nav>
     </div>
+
     <!--Section for main image and icons and animations-->
-    <section>
-        <main>
+    <main>
+        <section>
             <div class="container">
-                <img src="assets/images/bike-background-image.jpg" alt="Bikebackground">
+                <img src="assets/images/bike-background-image.jpg" alt="Bikebackground" id="hero-image">
 
-                <h2 class="top-left"> -Pick-up service-</h2>
-                <h2 class="central">-Rent a bike-</h2>
-                <h2 class="top-right">-Customized trips-</h2>
                 <div class="fixed-tours">
-                    <p>Fixed tours Saturdays & Sundays (May - Sep), click <a href="#here">here</a>
+                    <p>Fixed tour Saturdays & Sundays (May - Sep) <a href="#here">sign up here!</a>
                     </p>
-
-
-
                 </div>
-        </main>
-    </section>
+            </div>
+        </section>
 
-    <!--Section for routes-->
+        <!--Section for routes-->
+        <h2 id="here">Fixed tour</h2>
+        <p>The Gothenbyrg city tour is scheduled on Saturdays and Sundays between May and September. In each tour we wil
+            have short stops, in stop nr 4 (Eriksberg), "swedish fika" will be served.</p>
 
-    <h2 id="here">Fixed tours</h2>
-    <p>There are two different tours that is recurrent Saturdays and Sundays between May and September. On Saturdays the
-        Gothenburg city tour is scheduled whereas the Sunday trip is a one-way route from Gothenburg to the beautiful
-        southern archipleggio (you are being transported back on our bus to the starting point once the final
-        destination is
-        reached). In each tour three different stops are scheduled and "swedish fika" will be served in the second stop.
-    </p>
+        <h3 class="signup-form">Sign up</h3>
+        <fieldset>
+            <legend>Gothenburg city tour</legend>
+            <form method="post" action="https://formdump.codeinstitute.net/">
+                <label for="fname">First name</label>
+                <input type="text" name="fname" id="fname" /><br>
+                <label for="lname">Last name</label>
+                <input type="text" name="lname" id="lname" /><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" /><br>
 
-    <h3 class="signup-form">Sign up</h3>
-    <p> Tours </p>
+                <p> Bikes (for more than max quantity please contact us for on
+                    +46 1234 1234) </p>
+                <label>Standard 28":</label>
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity-one" min="1" max="5"><br>
 
-    <form method="post" action="https://formdump.codeinstitute.net/">
-        <label for="fname">First name</label>
-        <input type="text" name="fname" id="fname" /><br>
-        <label for="lname">Last name</label>
-        <input type="text" name="lname" id="lname" /><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" /><br>
+                <label>Standard 26":</label>
+                <label for="bike-one">Quantity (between 1 and 5):</label>
+                <input type="number" id="bike-one" name="quantity-two" min="1" max="5"><br>
 
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">Gothenburg city</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">Gothenburg - archipleggio</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">Both tours</label>
+                <label>E-bike 28":</label>
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity-three" min="1" max="5"><br>
 
-        <p> Bikes (for more than 4 people please contact us for on +46) </p>
-        <label>Standard 28":</label>
-        <label for="quantity">Quantity (between 1 and 5):</label>
-        <input type="number" id="quantity" name="quantity-one" min="1" max="5"><br>
+                <label>E-bike 26":</label>
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity-four" min="1" max="5"><br>
+                <input type="submit" value="Submit" id="submit-button">
+            </form>
+        </fieldset><br>
 
-        <label>Standard 26":</label>
-        <label for="bike-one">Quantity (between 1 and 5):</label>
-        <input type="number" id="bike-one" name="quantity-two" min="1" max="5"><br>
+        <!--Section for tour images-->
+        <section>
+            <img src="assets/images/gothenburg-city.jpg" id="gotcity-map"><br>
 
-        <label>E-bike 28":</label>
-        <label for="quantity">Quantity (between 1 and 5):</label>
-        <input type="number" id="quantity" name="quantity-three" min="1" max="5"><br>
+            <div class="imagetext-inline">
+                <img src="assets/images/vasagatan.jpg" alt="vasagatan" id="width">
+                <p class="float">1. Vasagatan<br>Vasagatan is a sidestreet from the main city street "avenyn", the
+                    street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan.
+            </div>
 
-        <label>E-bike 26":</label>
-        <label for="quantity">Quantity (between 1 and 5):</label>
-        <input type="number" id="quantity" name="quantity-four" min="1" max="5"><br>
-        <input type="submit" value="Submit">
-    </form>
+            <div class="imagetext-inline">
+                <img src="assets/images/haga-jarntorget.jpg" alt="haga-jarntorget" id="width">
+                <p class="float">2. Haga/Järntorget<br>Vasagatan is a sidestreet from the main city street "avenyn", the
+                    street
+                    is taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan.
+                </p>
+            </div>
 
+            <div class="imagetext-inline">
+                <img src="assets/images/lindholmen.jpg" alt="lindholmen" id="width">
+                <p class="float">3. Lindholmen<br>Vasagatan is a sidestreet from the main city street "avenyn", the
+                    street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan.
+                </p>
+            </div>
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d34093.52975685529!2d11.941233033721346!3d57.71908021177263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x464ff3501190f3f1%3A0x260190792e5efe61!2sLindholmen%2C%20G%C3%B6teborg!3m2!1d57.7077599!2d11.9382865!4m5!1s0x464ff45846a117bf%3A0x199f5c93ed77a6a8!2sGamlestaden%20G%C3%B6teborg!3m2!1d57.7295893!2d12.0068463!4m5!1s0x464ff47221f88c37%3A0x5823664cf8980292!2sMunkeb%C3%A4ckstorget%2C%20416%2073%20G%C3%B6teborg!3m2!1d57.7191352!2d12.0259701!5e0!3m2!1ssv!2sse!4v1691443010907!5m2!1ssv!2sse"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="imagetext-inline">
+                <img src="assets/images/eriksberg.jpg" alt="eriksberg" id="width">
+                <p class="float">4. Eriksberg<br>Vasagatan is a sidestreet from the main city street "avenyn", the
+                    street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan.
+                </p>
+            </div>
 
+            <div class="imagetext-inline">
+                <img src="assets/images/karlatornet.jpg" alt="karlatornet" id="width">
+                <p class="float">5. Karlatornet<br>Vasagatan is a sidestreet from the main city street "avenyn", the
+                    street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan.</p>
+            </div>
 
-    <iframe width="425" height="350"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=11.889095306396484%2C57.69194679790105%2C11.96016311645508%2C57.72221100747732&amp;layer=mapnik"
-        style="border: 1px solid black"></iframe><br /><small><a
-            href="https://www.openstreetmap.org/#map=13/57.7071/11.9246">Visa större karta</a></small>
-    <!--Section for footer-->
+            <div class="imagetext-inline">
+                <img src="assets/images/hisingsbron.jpg" alt="hisingsbron" id="width">
+                <p>6. Hisingsbron<br>Vasagatan is a sidestreet from the main city street "avenyn", the street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan</p>
+            </div>
 
-    <h2>Rent a bike</h2>
-    <p>We offer rental bikes in 2 various sizes as well as e-bikes, bike helmets are included in the prize. To rent a
-        bike
-        please contact us at the latest 2 hours before the planned tour on +46 1234 1234 </p>
-    <table>
-        <tr>
-            <th>Size (tires)</th>
-            <th>E-bike</th>
-            <th>Cost/h (SEK)</th>
+            <div class="imagetext-inline">
 
-        </tr>
-        <tr>
-            <td>28"</td>
-            <td></td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>26"</td>
-            <td></td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>28"</td>
-            <td>X</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <td>26"</td>
-            <td>X</td>
-            <td>200</td>
-        </tr>
-    </table>
+                <img src="assets/images/goteborgsoperan.jpg" alt="goteborgsoperan" id="width">
+                <p>7. Göteborgsoperan<br>Vasagatan is a sidestreet from the main city street "avenyn", the street is
+                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
+                    hagakyrkan</p>
+            </div>
+        </section>
 
+        <!--Section for footer-->
+
+        <h2>Rent a bike</h2>
+        <p>We offer rental bikes in 2 various sizes as well as e-bikes, bike helmets are included in the prize. To rent
+            a
+            bike
+            please contact us at the latest 2 hours before the planned tour on +46 1234 1234 </p>
+        <table>
+            <tr>
+                <th>Size (tires)</th>
+                <th>E-bike</th>
+                <th>Cost/h (SEK)</th>
+
+            </tr>
+            <tr>
+                <td>28"</td>
+                <td></td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>26"</td>
+                <td></td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>28"</td>
+                <td>X</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>26"</td>
+                <td>X</td>
+                <td>200</td>
+            </tr>
+        </table>
+    </main>
     <footer>
         <ul class="social-networks">
             <li>
