@@ -1,196 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gothenburg cycling trips</title>
 
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
-
-    <!--Section for main image and icons and animations-->
-    <div class="header">
-        <h1>Gothenburg cycling trips</h1>
-        <nav>
-            <a href="#">Rent a bike</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-    </div>
+  <body>
+    <section>
+      <!--Section for main image and icons and animations-->
+      <header>
+        <div class="header-container">
+          <div class="header">
+            <h1>Gothenburg cycling trips</h1>
+          </div>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#rentabike">Rent a bike</a></li>
+              <li><a href="#aboutus">About us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
 
     <!--Section for main image and icons and animations-->
     <main>
-        <section>
-            <div class="container">
-                <img src="assets/images/bike-background-image.jpg" alt="Bikebackground" id="hero-image">
+      <section>
+        <div class="container">
+          <img
+            src="assets/images/bike-background-image.jpg"
+            alt="Bikebackground"
+            id="hero-image"
+          />
+          <div class="fixed-tours">
+            <p>
+              Fixed tour Saturdays & Sundays (May - Sep)
+              <a href="#here">sign up here!</a>
+            </p>
+          </div>
+        </div>
+      </section>
 
-                <div class="fixed-tours">
-                    <p>Fixed tour Saturdays & Sundays (May - Sep) <a href="#here">sign up here!</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!--Section for routes-->
+      <!--Section for routes-->
+      <section>
         <h2 id="here">Fixed tour</h2>
-        <p>The Gothenbyrg city tour is scheduled on Saturdays and Sundays between May and September. In each tour we wil
-            have short stops, in stop nr 4 (Eriksberg), "swedish fika" will be served.</p>
+        <p>
+          The Gothenbyrg city tour is scheduled on Saturdays and Sundays between
+          May and September. In each tour we wil have short stops, in stop nr 4
+          (Eriksberg), "swedish fika" will be served.
+        </p>
 
         <h3 class="signup-form">Sign up</h3>
         <fieldset>
-            <legend>Gothenburg city tour</legend>
-            <form method="post" action="https://formdump.codeinstitute.net/">
-                <label for="fname">First name</label>
-                <input type="text" name="fname" id="fname" /><br>
-                <label for="lname">Last name</label>
-                <input type="text" name="lname" id="lname" /><br>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" /><br>
+          <legend>Gothenburg city tour</legend>
+          <form method="post" action="https://formdump.codeinstitute.net/">
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname" /><br />
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname" /><br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" /><br />
 
-                <p> Bikes (for more than max quantity please contact us for on
-                    +46 1234 1234) </p>
-                <label>Standard 28":</label>
-                <label for="quantity">Quantity (between 1 and 5):</label>
-                <input type="number" id="quantity" name="quantity-one" min="1" max="5"><br>
+            <p>
+              Bikes (for more than max quantity please contact us for on +46
+              1234 1234)
+            </p>
+            <label>Standard 28":</label>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity-one"
+              min="1"
+              max="5"
+            /><br />
 
-                <label>Standard 26":</label>
-                <label for="bike-one">Quantity (between 1 and 5):</label>
-                <input type="number" id="bike-one" name="quantity-two" min="1" max="5"><br>
+            <label>Standard 26":</label>
+            <label for="bike-one">Quantity (between 1 and 5):</label>
+            <input
+              type="number"
+              id="bike-one"
+              name="quantity-two"
+              min="1"
+              max="5"
+            /><br />
 
-                <label>E-bike 28":</label>
-                <label for="quantity">Quantity (between 1 and 5):</label>
-                <input type="number" id="quantity" name="quantity-three" min="1" max="5"><br>
+            <label>E-bike 28":</label>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity-three"
+              min="1"
+              max="5"
+            /><br />
 
-                <label>E-bike 26":</label>
-                <label for="quantity">Quantity (between 1 and 5):</label>
-                <input type="number" id="quantity" name="quantity-four" min="1" max="5"><br>
-                <input type="submit" value="Submit" id="submit-button">
-            </form>
-        </fieldset><br>
+            <label>E-bike 26":</label>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity-four"
+              min="1"
+              max="5"
+            /><br />
+            <input type="submit" value="Submit" id="submit-button" />
+          </form>
+        </fieldset>
+        <br />
+      </section>
 
-        <!--Section for tour images-->
-        <section>
-            <img src="assets/images/gothenburg-city.jpg" id="gotcity-map"><br>
+      <!--Section for Remt a bike-->
+      <h2 id="rentabike">Rent a bike</h2>
+      <p>
+        We offer rental bikes in 2 various sizes as well as e-bikes, bike
+        helmets are included in the prize. To rent a bike please contact us at
+        the latest 2 hours before the planned tour on +46 31 1234 1234.
+      </p>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/vasagatan.jpg" alt="vasagatan" id="width">
-                <p class="float">1. Vasagatan<br>Vasagatan is a sidestreet from the main city street "avenyn", the
-                    street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan.
-            </div>
+      <table>
+        <tr>
+          <th>Size (tires)</th>
+          <th>Standard/E-bike</th>
+          <th>Cost/h (SEK)</th>
+        </tr>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/haga-jarntorget.jpg" alt="haga-jarntorget" id="width">
-                <p class="float">2. Haga/Järntorget<br>Vasagatan is a sidestreet from the main city street "avenyn", the
-                    street
-                    is taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan.
-                </p>
-            </div>
+        <tr>
+          <td>28"</td>
+          <td>S</td>
+          <td>150</td>
+        </tr>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/lindholmen.jpg" alt="lindholmen" id="width">
-                <p class="float">3. Lindholmen<br>Vasagatan is a sidestreet from the main city street "avenyn", the
-                    street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan.
-                </p>
-            </div>
+        <tr>
+          <td>26"</td>
+          <td>S</td>
+          <td>150</td>
+        </tr>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/eriksberg.jpg" alt="eriksberg" id="width">
-                <p class="float">4. Eriksberg<br>Vasagatan is a sidestreet from the main city street "avenyn", the
-                    street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan.
-                </p>
-            </div>
+        <tr>
+          <td>28"</td>
+          <td>E</td>
+          <td>200</td>
+        </tr>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/karlatornet.jpg" alt="karlatornet" id="width">
-                <p class="float">5. Karlatornet<br>Vasagatan is a sidestreet from the main city street "avenyn", the
-                    street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan.</p>
-            </div>
+        <tr>
+          <td>26"</td>
+          <td>E</td>
+          <td>200</td>
+        </tr>
+      </table>
 
-            <div class="imagetext-inline">
-                <img src="assets/images/hisingsbron.jpg" alt="hisingsbron" id="width">
-                <p>6. Hisingsbron<br>Vasagatan is a sidestreet from the main city street "avenyn", the street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan</p>
-            </div>
+      <!--Section for tour images-->
+      <section>
+        <h2 id="rentabike">Gothenburg tour map</h2>
+        <img src="assets/images/gothenburg-city.jpg" id="gotcity-map" />
 
-            <div class="imagetext-inline">
+        <div class="imagetext-inline">
+          <img src="assets/images/vasagatan.jpg" alt="vasagatan" id="width" />
+          <p class="float">
+            1. Vasagatan<br />Vasagatan is a sidestreet from the main city
+            street "avenyn", the street is taking us to the area of Haga and
+            Järntorget. In this section we will pass handelshögskolan and
+            hagakyrkan.
+          </p>
+        </div>
 
-                <img src="assets/images/goteborgsoperan.jpg" alt="goteborgsoperan" id="width">
-                <p>7. Göteborgsoperan<br>Vasagatan is a sidestreet from the main city street "avenyn", the street is
-                    taking us to the area of Haga and Järntorget. In this section we will pass handelshögskolan and
-                    hagakyrkan</p>
-            </div>
-        </section>
+        <div class="imagetext-inline">
+          <img
+            src="assets/images/haga-jarntorget.jpg"
+            alt="haga-jarntorget"
+            id="width"
+          />
+          <p class="float">
+            2. Haga/Järntorget<br />The area was established in the 1630's, the
+            population started to grow a couple of decades after, the habitants
+            were usually labor for working in the harbour. Today there several
+            cafees and souvenir shops, the cobble stone streets are quite busy
+            at times so we will walk with the bikes for a limited section.
+          </p>
+        </div>
 
-        <!--Section for footer-->
+        <div class="imagetext-inline">
+          <img src="assets/images/lindholmen.jpg" alt="lindholmen" id="width" />
+          <p class="float">
+            3. Lindholmen<br />From shipyards to it-cluster describes in short
+            the transformation of Lindholmen. Nowdays it is known has
+            "lindholmen science park" but some 40 years it was considered a word
+            leading shipbuilding industry, however a crisis in the business in
+            the beginning of the 80's leading to almost 20000 reduncies
+            completely changed the area usage. Currently at least 10000 people
+            is now working wihtin the It/-tech in the scence park.
+          </p>
+        </div>
 
-        <h2>Rent a bike</h2>
-        <p>We offer rental bikes in 2 various sizes as well as e-bikes, bike helmets are included in the prize. To rent
-            a
-            bike
-            please contact us at the latest 2 hours before the planned tour on +46 1234 1234 </p>
-        <table>
-            <tr>
-                <th>Size (tires)</th>
-                <th>E-bike</th>
-                <th>Cost/h (SEK)</th>
+        <div class="imagetext-inline">
+          <img src="assets/images/eriksberg.jpg" alt="eriksberg" id="width" />
+          <p class="float">
+            4. Eriksberg<br />As for Lindholmen, shipyards were situated in
+            Eriksberg. A landmark Gothenburg city is the harbour crane
+            "Eriksberg", it was built in 1969 and to protect and preserve the
+            iconic artifact it became a listed building in 2012.
+          </p>
+        </div>
 
-            </tr>
-            <tr>
-                <td>28"</td>
-                <td></td>
-                <td>150</td>
-            </tr>
-            <tr>
-                <td>26"</td>
-                <td></td>
-                <td>150</td>
-            </tr>
-            <tr>
-                <td>28"</td>
-                <td>X</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>26"</td>
-                <td>X</td>
-                <td>200</td>
-            </tr>
-        </table>
+        <div class="imagetext-inline">
+          <img
+            src="assets/images/karlatornet.jpg"
+            alt="karlatornet"
+            id="width"
+          />
+          <p class="float">
+            5. Karlatornet<br />We will pass Karlatornet which, when it is
+            finalized, will reach 246 m up in the sky making it the highest
+            building in northern Europe.
+          </p>
+        </div>
+
+        <div class="imagetext-inline">
+          <img
+            src="assets/images/hisingsbron.jpg"
+            alt="hisingsbron"
+            id="width"
+          />
+          <p>
+            6. Hisingsbron<br />We will now going back to the mainland using the
+            Hisingsbron (bridge to the island of Hisingen), the bridge came into
+            use in 2021 replacing the previous outdated bridge, besides a new
+            design the height of the bridge was reduced by 6 meters (12 meters
+            instead of 18 meters).
+          </p>
+        </div>
+
+        <div class="imagetext-inline">
+          <img
+            src="assets/images/goteborgsoperan.jpg"
+            alt="goteborgsoperan"
+            id="width"
+          />
+          <p>
+            7. Göteborgsoperan<br />The last stop on the tour is the Gothenburg
+            opera house, it was designed by the architect Jan Izikowitz and
+            built in 1994. The building has integrated design features like ship
+            hulls, sails or harbour cranes representing the characteristics of
+            Gothenburg.
+          </p>
+        </div>
+      </section>
+
+      <h2 id="aboutus">About us</h2>
+      <p>
+        Newly moved in town and want to meet new people, or on a visit and wish
+        to find enviromentally friendly alternatives to explore Gothenburg. And
+        why not use the oppurtinuty for a healthy bike tour? At gothenburg
+        cycling trips we offer a sustainable & social event combining everyhing
+        above.
+      </p>
+
+      <!--Section for contact-->
+      <h2 id="contact">Contact</h2>
+      <address>
+        Vasagatan 1<br />
+        400 00<br />
+        Gothenburg<br />
+        Sweden<br />
+
+        Email: <a href="mailto:gotcycling@example.com">gotcycling@example.com</a
+        ><br />
+        Phone: 0046 31 1234 1234<br />
+      </address>
     </main>
+    <!--Section for footer-->
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        </ul>
+      <ul class="social-networks">
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+            ><i class="fab fa-youtube-square"></i
+          ></a>
+        </li>
+      </ul>
 
-        <!-- font awesome script -->
-        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+      <!-- font awesome script -->
+      <script
+        src="https://kit.fontawesome.com/c7dbda0798.js"
+        crossorigin="anonymous"
+      ></script>
     </footer>
-
-
-</body>
-
+  </body>
 </html>

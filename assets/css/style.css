@@ -16,6 +16,14 @@ main {
 
 }
 
+.header-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header {
     font-family: Bebas Neue, sans-serif;
     display: flex;
@@ -25,9 +33,37 @@ main {
 
 h1 {
     font-size: 50px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-nav {
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.navbar {
     font-size: 25px;
 }
 
@@ -36,11 +72,8 @@ a {
 }
 
 a:hover {
-    color: red;
-}
-
-a:active {
     color: blue;
+    text-decoration: underline;
 }
 
 .container {
@@ -51,6 +84,7 @@ a:active {
 #gotcity-map,
 #hero-image {
     width: 100%;
+    padding: 0;
 }
 
 .fixed-tours {
@@ -75,11 +109,13 @@ a:active {
 
 .imagetext-inline {
     display: flex;
+    margin: 15px 0 15px 0;
+    padding: 0;
 }
 
 .float {
     margin-top: 0;
-    margin-left: 3px;
+    margin-left: 10px;
 }
 
 #submit-button {
@@ -111,4 +147,22 @@ footer {
     margin: 3%;
     padding: 5%;
     color: #3a3a3a
+}
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+
+    nav li {
+        margin: 0.2em 0;
+        padding: 10px;
+    }
 }
