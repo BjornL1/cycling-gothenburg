@@ -188,19 +188,19 @@ td {
     text-align: center;
 }
 
-.row_one,
-.row_two {
+.row_standardbikes,
+.row_ebikes {
     display: flex;
     justify-content: left;
     padding-left: 0px;
 }
 
-.column {
+.column_bikes {
     margin-left: 2%;
     margin-right: 15px;
 }
 
-.column p {
+.column_bikes p {
     margin-bottom: 0;
 }
 
@@ -266,8 +266,8 @@ footer {
         padding-left: 0;
     }
 
-    .row_one,
-    .row_two {
+    .row_standardbikes,
+    .row_ebikes {
         display: flex;
         flex-direction: column;
     }
