@@ -21,7 +21,6 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-
 .header {
     font-family: "Bebas Neue", sans-serif;
     display: flex;
@@ -42,11 +41,9 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
 nav li {
     margin-left: 2em;
 }
-
 nav a {
     text-decoration: none;
 }
@@ -57,7 +54,6 @@ h2 {
     padding: 0;
     margin-left: 2%;
 }
-
 p {
     padding: 0px;
     margin-top: 0px;
@@ -67,22 +63,18 @@ p {
     font-size: 25px;
     margin-right: 2vw;
 }
-
 a {
     color: inherit;
 }
-
 a:hover {
     color: blue;
     text-decoration: underline;
-}
 
+}
 .hero-image-container {
     position: relative;
     font: bolder;
 }
-
-
 #hero-image {
     display: flex;
     margin-left: auto;
@@ -98,7 +90,6 @@ a:hover {
     width: 96%;
     margin-bottom: 30px;
 }
-
 .fixed-tour {
     position: absolute;
     text-align: left;
@@ -121,20 +112,17 @@ a:hover {
     margin-top: 0px;
 
 }
-
 .image-text-aside p {
     margin-right: 20px;
     margin-top: 0px;
     font-size: 2vw;
     vertical-align: top;
 }
-
 .imagetext-inline {
     display: flex;
     margin: 15px 0 15px 0;
     padding: 0;
 }
-
 .image-width {
     max-width: 40vw;
     height: auto;
@@ -144,7 +132,6 @@ a:hover {
     max-width: 40vw;
     height: auto;
 }
-
 .text-right-side {
     margin-top: 0;
     margin-left: 10px;
@@ -153,7 +140,6 @@ a:hover {
 div {
     margin-bottom: 10px;
 }
-
 label {
     display: inline-block;
     width: 150px;
@@ -164,14 +150,12 @@ label {
     margin-left: 2%;
     margin-right: 2%;
 }
-
 #submit-button {
     margin-top: 20px;
     width: 200px;
     height: 70px;
     font-size: 20px;
 }
-
 #submit-button:hover {
     color: white;
     background-color: red;
@@ -180,7 +164,6 @@ label {
 h3 {
     margin-left: 2%;
 }
-
 table,
 th,
 td {
@@ -200,19 +183,15 @@ td {
     margin-left: 2%;
     margin-right: 15px;
 }
-
 .column_bikes p {
     margin-bottom: 0;
 }
-
 .margin-left {
     margin-left: 2%;
 }
-
 table {
     margin-bottom: 15px;
 }
-
 address {
 
     margin-bottom: 30px;
@@ -221,18 +200,15 @@ address {
 footer {
     background-color: #252621;
 }
-
 .social-networks {
     text-align: center;
     padding-left: 0;
 }
-
 .social-networks>li {
     display: inline;
     max-width: 100%;
     height: auto;
 }
-
 .social-networks i {
     font-size: 160%;
     margin: 3%;
@@ -249,13 +225,11 @@ footer {
     h1 {
         margin-bottom: 0px;
     }
-
     nav ul {
         flex-direction: row;
         margin-bottom: 5px;
         margin-top: 0;
     }
-
     nav li {
         margin: 0.2em 0;
         padding: 0px 15px 0px 15px;
@@ -271,12 +245,11 @@ footer {
         margin: 10px 0 10px 0;
         padding-left: 0;
     }
-
     .image-text-aside p {
             font-size: 16px;
             margin-right: 50px;
         }
-        
+
     .row_standardbikes,
     .row_ebikes {
         display: flex;
@@ -294,7 +267,6 @@ footer {
         height: auto;
         margin-left: 0;
     }
-
     .column {
         margin-left: 2%;
     }
@@ -302,7 +274,6 @@ footer {
     .text-right-side {
         margin-top: 0;
         margin-left: 2%;
-
     }
 
     @media screen and (max-width: 499px) {
@@ -316,7 +287,6 @@ footer {
 
         nav li {
             font-size: 0.8rem;
-
         }
     }
 }
@@ -325,9 +295,7 @@ footer {
     h1 {
         font-size: 8vw;
     }
-
     nav ul {
         display: inline-block;
-
     }
 }

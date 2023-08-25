@@ -30,7 +30,7 @@
 
     <main>
         <div class="hero-image-container">
-            <img src="assets/images/bike-background-image.webp" alt="bikebackground" id="hero-image">
+            <img src="assets/images/bike-background-image.jpg" alt="bikebackground" id="hero-image" width="1200">
             <div class="fixed-tour">
                 <p>City bike tour Saturdays & Sundays (May - Sep)<br> 
                     <a href="#fixed-tour-link">SIGN UP HERE!</a>
@@ -40,12 +40,11 @@
 
         <section>
             <h2>Gothenburg tour map</h2>
-            <img src="assets/images/gothenburg-city.webp" id="gotcity-map" alt="gothenburg-city">
+            <img src="assets/images/gothenburg-city_.jpg" id="gotcity-map" alt="gothenburg-city" width="1000">
              
-            
             <div class="image-text-aside">
                 <div>
-                    <img src="assets/images/vasagatan.jpg" alt="vasagatan" class="image-width">
+                    <img src="assets/images/vasagatan_.jpg" alt="vasagatan" class="image-width">
                 </div>
                 <div>
                     <p class="text-right-side"><strong>1. Vasagatan</strong><br>Vasagatan is a side street from “Avenyn”
@@ -105,7 +104,7 @@
 
             <div class="image-text-aside">
                 <div>
-                    <img src="assets/images/hisingsbron.jpg" alt="hisingsbron" class="image-width">
+                    <img src="assets/images/hisingsbron_.jpg" alt="hisingsbron" class="image-width">
                 </div>
                 <p class="text-right-side"><strong>6. Hisingsbron</strong><br>We will now going back to the mainland using the Hisingsbron (bridge between mainland and the island of Hisingen), the bridge came into use in 2021 replacing the previous outdated bridge, besides a new design, the height of the bridge was reduced by 6 meters (12 meters instead of 18 meters).
                 </p>
@@ -150,36 +149,35 @@ Newly moved in town and want to meet new people, or on a visit and wish to find
             <h3 class="signup-form">Sign up</h3>
             <fieldset id="signup-outerboarder">
                 <legend>Gothenburg city tour</legend>
-                <form method="post" action="https://formdump.codeinstitute.net/" autocomplete="off">
+                <form method="post" action="https://formdump.codeinstitute.net/">
                     <fieldset>
                         <label for="fname">First name</label>
-                        <input type="text" name="fname" id="fname" required><br>
+                        <input type="text" name="fname" id="fname" autocomplete="given-name" required ><br>
                         <label for="lname">Last name</label>
-                        <input type="text" name="lname" id="lname" required><br>
+                        <input type="text" name="lname" id="lname" autocomplete="family-name" required ><br>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required><br>
+                        <input type="email" name="email" id="email" autocomplete="email" required ><br>
                     </fieldset>
                     <fieldset>
                         <p>Do you need to rent a bike for the tour? Fill in quantity per bike type below.
                             Information regarding the bikes can be found <a href="#rentabike"><em>here</em></a> </p>
                         <label for="bike-one">Standard 28"<br>(quantity 1 to 5):</label>
-                        <input type="number" id="bike-one" name="quantity-one" min="1" max="5"><br>
+                        <input type="number" id="bike-one" name="quantity-one" min="1" max="5" autocomplete="off"><br>
 
                         <label for="bike-two">Standard 26"<br>(quantity 1 to 5):</label>
-                        <input type="number" id="bike-two" name="quantity-two" min="1" max="5"><br>
+                        <input type="number" id="bike-two" name="quantity-two" min="1" max="5" autocomplete="off"><br>
 
                         <label for="bike-three">E-bike 28"<br>(quantity 1 to 5):</label>
-                        <input type="number" id="bike-three" name="quantity-three" min="1" max="5"><br>
+                        <input type="number" id="bike-three" name="quantity-three" min="1" max="5" autocomplete="off"><br>
 
                         <label for="bike-four">E-bike 26"<br>(quantity 1 to 5):</label>
-                        <input type="number" id="bike-four" name="quantity-four" min="1" max="5"><br>
+                        <input type="number" id="bike-four" name="quantity-four" min="1" max="5" autocomplete="off"><br>
 
                     </fieldset>
                     <input type="submit" value="Submit" id="submit-button">
                 </form>
             </fieldset>
         </section>
-
 
         <h2 id="rentabike">Rent a bike</h2>
         <p class="margin-left">We offer rental bikes in 2 various sizes as well as e-bikes, bike helmets are included in
@@ -193,25 +191,21 @@ Newly moved in town and want to meet new people, or on a visit and wish to find
                 <th>Standard/E-bike</th>
                 <th>Cost/h (SEK)</th>
             </tr>
-
             <tr>
                 <td>28"</td>
                 <td>S</td>
                 <td>150</td>
             </tr>
-
             <tr>
                 <td>26"</td>
                 <td>S</td>
                 <td>150</td>
             </tr>
-
             <tr>
                 <td>28"</td>
                 <td>E</td>
                 <td>200</td>
             </tr>
-
             <tr>
                 <td>26"</td>
                 <td>E</td>
@@ -222,24 +216,24 @@ Newly moved in town and want to meet new people, or on a visit and wish to find
         <div class="row_standardbikes">
             <div class="column_bikes">
                 <p>Standard 28"</p>
-                <img src="assets/images/standardbike_a.jpg" alt="standardbike-type-a" class="image-width-rab">
+                <img src="assets/images/standardbike_a_.jpg" alt="standardbike-type-a" class="image-width-rab">
             </div>
 
             <div class="column_bikes">
                 <p>Standard 26"</p>
-                <img src="assets/images/standardbike_b.jpg" alt="standardbike-type-b" class="image-width-rab">
+                <img src="assets/images/standardbike_b_.jpg" alt="standardbike-type-b" class="image-width-rab">
             </div>
         </div>
 
         <div class="row_ebikes">
             <div class="column_bikes">
                 <p>E-bike 28"</p>
-                <img src="assets/images/ebike_a.jpg" alt="ebikebike-type-a" class="image-width-rab">
+                <img src="assets/images/ebike_a_.jpg" alt="ebikebike-type-a" class="image-width-rab">
             </div>
 
             <div class="column_bikes">
                 <p>E-bike 26"</p>
-                <img src="assets/images/ebike_b.jpg" alt="ebike-type-b" class="image-width-rab">
+                <img src="assets/images/ebike_b_.jpg" alt="ebike-type-b" class="image-width-rab">
             </div>
         </div>
 
@@ -253,7 +247,6 @@ Newly moved in town and want to meet new people, or on a visit and wish to find
             Email: <a href="mailto:gotcycling@example.com">gotcycling@example.com</a><br>
             Phone: 0046 31 1234 1234<br>
         </address>
-
 
     </main>
     <footer>
@@ -273,8 +266,5 @@ Newly moved in town and want to meet new people, or on a visit and wish to find
 
         <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     </footer>
-
-
 </body>
-
 </html>
