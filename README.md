@@ -207,6 +207,19 @@ Include instructions here on how to deploy your project. For your first project 
 
 ## Testing
 
+### Testing User Stories from (UX) Section
+- As a user, I want to be able to understand the business brand at a first look.
+  - The welcome area on the homepage looks good on all devices. This is the main introduction to the brand and sets a nice tone for the business brand.
+
+- As a user, I want to be able to see which type of service is provided on the landing page.
+  - The link to the bike tour is clearly visible and which days it is scheduled for, also the navbar shows the user that you can rent a bike.
+
+- As a user, I want to be able to access information where I can address questions and how to get in contact with the service provider.
+-  The links for "contact" "and about us" is positioned at upper right position on desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
+
+As a user, I want to be able to be able to find the business location and to understand the scope of the tour.
+- The map of the tour is placed directly under the landing page making it easy is clearly visible, the start of the tour is indicated on the map with a big red marker and the tour direction with including stops is presented as numbers (1-7).
+  
 - Validator Testing
   -  HTML
 -   - No errors were returned when passing through the official W3C Markup Validator
