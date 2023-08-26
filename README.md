@@ -4,6 +4,8 @@ Gothenburg cycling trips is offering bike tours in Gothenburg city (Sweden), the
 
 ![landingpage](landingpage.png)
 
+Link to the site:
+[GOTHENBURG CYCLING TRIPS](https://bjornl1.github.io/cycling-gothenburg/)
 
 ## CONTENTS
 
@@ -213,7 +215,7 @@ Include instructions here on how to deploy your project. For your first project 
 
 -  CSS
  - No errors were found when passing through the official W3C CSS Validator
-W3C CSS Validator Results
+   
 
 - Accessibility
  - The site achieved a Lighthouse accessibility score of 100%, see below picture from lighthouse testing.
