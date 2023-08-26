@@ -2,7 +2,7 @@
 
 Gothenburg cycling trips is offering bike tours in Gothenburg city (Sweden), the background for creating this site is to promote an environmentally friendly and uncomplicated way to explore Gothenburg city for tourists or anyone enjoying bicycling. Furthermore, the target group could be anyone newly moved to Gothenburg wishing to make new acquaintances and would suit well for team-activities.
 
-![landingpage](landingpage.png)
+![landingpage](landingpage_.png)
 
 Link to the site:
 [GOTHENBURG CYCLING TRIPS](https://bjornl1.github.io/cycling-gothenburg/)
