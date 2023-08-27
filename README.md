@@ -218,21 +218,22 @@ Include instructions here on how to deploy your project. For your first project,
 -  The links for "contact" "and about us" are positioned at the upper right position on the desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
 
 As a user, I want to be able to be able to find the business location and to understand the scope of the tour.
-- The map of the tour is placed directly under the landing page making it easy to be clearly visible, the start of the tour is indicated on the map with a big red marker, and the tour direction with including stops is presented as numbers (1-7).
-  
-- Validator Testing
-  -  HTML
--   - No errors were returned when passing through the official W3C Markup Validator
+- The map of the tour is placed directly under the landing page making it easy to be clearly visible, the start of the tour is indicated on the map with a big red marker, and the tour direction including stops is presented as numbers (1-7).
+####  Validator Testing
+- W3C Markup Validator
+  - HTML - No errors were returned when passing through the official W3C Markup Validator
 
 - W3C Validator Results
-
--  CSS
- - No errors were found when passing through the official W3C CSS Validator
+  - CSS - No errors were found when passing through the official W3C CSS Validator
    
-
-- Accessibility
- - The site achieved a Lighthouse accessibility score of 100%, see below picture from lighthouse testing.
+- Lighthouse
+  - Accessibility/SEO/Best practice
+   - The site achieved a score of 100%, see below picture from lighthouse testing.
+ 
+  - *Performance - The performance is 98%, however, the results can vary between different test runs even with unchanged code according to Google "lighthouse performance scores tend to change due the inherent variability and network technologies, even if there has not been a change to the page" reference in this link [DevelopersGoogle](https://developers.google.com/web/tools/lighthouse/variability)
 ![lighthouse_test](lighthouse_result.png)
+
+####  Validator Testing
 
 - Form Testing
   - The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
