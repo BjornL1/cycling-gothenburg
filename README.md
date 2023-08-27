@@ -230,7 +230,8 @@ As a user, I want to be able to be able to find the business location and to und
   - Accessibility/SEO/Best practice
    - The site achieved a score of 100%, see below picture from lighthouse testing.
  
-  - *Performance - The performance is 98% from one test run, however, the results can vary between different test runs even with unchanged code according to Google "lighthouse performance scores tend to change due the inherent variability and network technologies, even if there has not been a change to the page" reference in this link [DevelopersGoogle](https://developers.google.com/web/tools/lighthouse/variability)
+  - *Performance - The performance is 87% from one test run, however, the results can vary between different test runs even with unchanged code according to Google "lighthouse performance scores tend to change due the inherent variability and network technologies, even if there has not been a change to the page" reference in this link [DevelopersGoogle] In order to achive above 90% the images would have been needed to be even more compressed and risking to become pixelated and reduce the important first impression of the site, therefore this was judged to be the best compromise between loading page and image quality. If the site would become a real official site, a content device network (CDN) could be the best solution to display images, especially if the number of users would increase.
+  - (https://developers.google.com/web/tools/lighthouse/variability)
 ![lighthouse_test](lighthouse_result.png)
 
 ####  Further Testing
