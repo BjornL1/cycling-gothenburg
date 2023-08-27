@@ -1,6 +1,6 @@
 # GOTHENBURG CYCLING TRIPS
 
-Gothenburg cycling trips is offering bike tours in Gothenburg city (Sweden), the background for creating this site is to promote an environmentally friendly and uncomplicated way to explore Gothenburg city for tourists or anyone enjoying bicycling. Furthermore, the target group could be anyone newly moved to Gothenburg wishing to make new acquaintances and would suit well for team-activities.
+Gothenburg Cycling Trips is a bike tour service in Gothenburg city (Sweden). The reason for creating this site is to promote an environmentally friendly and uncomplicated way to explore Gothenburg city for tourists or anyone enjoying bicycling. Furthermore, the target group could be anyone newly moved to Gothenburg wishing to make new acquaintances and would suit well for team activities.
 
 ![landingpage](landingpage_.png)
 
@@ -42,48 +42,48 @@ Link to the site:
 
 - __Initiation of concept__
 
-Bicycling has becoming more popular recent years in Gothenburg, in combination with improving bike lanes, evolution of e-bikes and ambitious targets from local authorities to use environmentally friendly transportation solutions, a new market opportunity has been enabled. Gothenburg cycling trips can offer the potential increase for bike trips.
+Bicycling has become more popular in recent years in Gothenburg, in combination with improving bike lane network, the evolution of e-bikes, and ambitious targets from local authorities to use environmentally friendly transportation solutions, a new market opportunity has been enabled. Gothenburg cycling trips can offer the potential increase for bike trips.
 
 - __Key goals for the site__
 
-- To offer a bike tour through the city by providing an easy accessibly website. 
-- To offer a platform for social events and flexibility to adapt for customer/users input.
+- To offer a bike tour through the city by providing an easily accessible website. 
+- To offer a platform for social events and flexibility to adapt for customer/user input.
 
 ### User Stories
 
 - __First time user:__
     I am:
   - Appreciating the website with a first impression of a well-balanced layout for information
-  - Understanding the websites purpose and what services it offers.
+  - Understanding the website's purpose and what services it offers.
   - Navigating easily to access the main functions.
 
 
 - __Returning User:__
     I am:  
   - Establishing personal contact and should be able to give input to improve the site or service.
-  - Exploring further options for bike tours well described in the about section.
+  - Exploring further options for bike tours.
 
 ## Design
 ### Colour Scheme
-The landing page is the primary colour contributor to the website; hence the background is white in order the enhance the dominant colours in the hero image which is representing the long Nordic summer sunsets.
+The landing page is the primary colour contributor to the website; hence the background is white in order the enhance the dominant colours in the hero image which represents the long Nordic summer sunsets.
 
 One of the main colours used in the hero image (#252621) was re-used for the footer as well, the colour is still clearly making a distinct difference compared to the contact section above it but keeping the theme consistent with the landing page. The colour scheme was created with [coolors](https://coolors.co/). 
 
 ![colourscheme](colourscheme.png)
 
 ### Typography        
-The fonts chosen for the project is Babas Neue and Kanit with sans-serif as back up, these fonts are distinct but still with a soft edge matching the landing page content.
-These fonts were imported with google fonts [Google Fonts](https://fonts.google.com/)
+The fonts chosen for the project are Babas Neue and Kanit with sans-serif as backup, the fonts are distinct but still with a soft edge matching the landing page content.
+These fonts were imported with Google Fonts [Google Fonts](https://fonts.google.com/)
 
 Kanit: for all content except the header title element (h1)
 Babas Neue: for Header (h1)
 
 ### Imagery
-The imagery is a fundamental aspect for the site, since the service provided is primarily bike tours, various images from the tour were included to let the user being able to properly view the main parts of the route thus improving the experience overall.
+The imagery is a fundamental aspect of the site, since the service provided is primarily bike tours, various images from the tour were included to let the user be able to properly view the main parts of the route thus improving the experience overall.
 
 Images:
-- Landing page and rent a bike section are from pexels.
-- The gothenburg city map is from open street map.
+- The landing page and rent a bike section are from pexels.
+- The Gothenburg city map is from open street map.
 - All other pictures are taken by me.
 
 ### Wireframes
