@@ -42,7 +42,7 @@ Link to the site:
 
 - __Initiation of concept__
 
-Bicycling has become more popular in recent years in Gothenburg, in combination with improving bike lane network, the evolution of e-bikes, and ambitious targets from local authorities to use environmentally friendly transportation solutions, a new market opportunity has been enabled. Gothenburg cycling trips can offer the potential increase for bike trips.
+Bicycling has become more popular in recent years in Gothenburg, combined with an improved bike lane network, the evolution of e-bikes, and ambitious targets from local authorities to use environmentally friendly transportation solutions, a new market opportunity has been enabled. Gothenburg cycling trips can offer the potential increase for bike trips.
 
 - __Key goals for the site__
 
@@ -112,40 +112,40 @@ Images:
 
 
 - Landing page
-  -  The header and navigation bar are adapted with media queries, once viewed on a smaller device the navbar will be placed under the header and both header and navbar will be centered for promoting consistency in the display of the items and avoiding interference between them.
+  -  The header and navigation bar are adapted to media queries, once viewed on a smaller device the navbar will be placed under the header and both header and navbar will be centered for promoting consistency in the display of the items and avoiding interference between them.
 
-  - A link to the sign-up form is displayed close to top center, the purpose with the element is to draw attention to the link since it is standing out from the page and leading directly to link to sign up form for the users.
+  - A link to the sign-up form is displayed close to the top center, the purpose of the element is to draw attention to the link since it stands out from the page and leads directly to the link to sign-up form for the users.
 
 - Bike tour content
-  - In this section the main content is presented to the user, it follows directly after the main page. The first image displayed is an overview of the Gothenburg city tour, the following content illustrates each tour section in the order following the route. For each image there is a brief description of the different stops that are included in the tour. For smaller screens, the content is displayed as a row the information text is followed by the image for each tour stop, by presenting the information in a row the image can be kept with a size making the image content clearly visible.
+  - In this section, the main content is presented to the user, it follows directly after the main page. The first image displayed is an overview of the Gothenburg city tour, the following content illustrates each tour section in the order following the route. For each image, there is a brief description of the different stops that are included in the tour. For smaller screens, the content is displayed as a row the information text is followed by the image for each tour stop, and by presenting the information in a row the image can be kept with a size making the image content clearly visible.
 
-  - About Us. This section includes a subsection for the sign-up form for fixed tours. The first section is a description on the background of the webpage and what service is provided, after the introduction the subsection follows with the sign-up form.  
-  - Fixed tour sign up form
-    - In this form the user can submit a sign-up form to join the fixed tour, the form also includes a possibility to rent different bikes. The name and email fields are required to fill in whereas the bike field is optional, however there is set quantity between 1 to 5 bikes preventing the user to not adding copious quantities by mistake. Furthermore, there is a link to the rent a bike in the form field allowing the user to quickly check which bikes are available before sending the form.
+  - About Us. This section includes a subsection for the sign-up form for fixed tours. The first section is a description of the background of the webpage and what service is provided, after the introduction the subsection follows with the sign-up form.  
+  - Fixed tour sign-up form
+    - In this form, the user can submit a sign-up form to join the fixed tour, the form also includes the possibility to rent different bikes. The name and email fields are required to be filled in whereas the bike field is optional, however, there is a set quantity between 1 to 5 bikes preventing the user to not adding copious quantities by mistake. Furthermore, there is a link to the rent a bike in the form field allowing the user to quickly check which bikes are available before sending the form.
     
 - Rent a bike
-  - This section includes the bikes provided by Gothenburg cycling trips, a table shows the cost for renting bike. Below the table, a paragraph is placed at the top of each bike image.
- On smaller screens the bike is adapted by a media query to display a row instead to fit the content properly.
+  - This section includes the bikes provided by Gothenburg cycling trips, a table shows the cost of renting a bike. Below the table, a paragraph is placed at the top of each bike image.
+ On smaller screens, the bike images are adapted by a media query to display a row instead of a horizontal alignment to fit the content properly.
 
 - Contact
-  - The contact section is including an address field but also phone and mail information, the latter is prepared with a link enabling the user to access a prepared mail link to improve accessibility. 
+  - The contact section includes an address field but also phone and mail information, the latter is prepared with a link enabling the user to access a prepared mail link to improve accessibility. 
 
-- A footer which contains social media links to Facebook, twitter, and YouTube. By using icons in the footer can be kept clean and because they are universally recognisable.
+- A footer that contains social media links to Facebook, Twitter, and YouTube. Using icons in the footer can be kept clean and because they are universally recognizable.
 
 
 ### Future Implementations
-  - Use javascript to add a "to top" button with a solid smooth scroll function.  
-  - Use javascript to add a confirmation pop-up window to allow the user to confirm the submitted form.
-  - Create a database for the bikes in order to easliy control the number of bikes available and the repair status. 
+  - Use JavaScript to add a "to top" button with a solid smooth scroll function.  
+  - Use JavaScript to add a confirmation pop-up window to allow the user to confirm the submitted form.
+  - Create a database for the bikes in order to easily control the number of bikes available and the repair status. 
   
 ### Accessibility
 
-- I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+- I have been mindful during coding to ensure that the website is as accessible and friendly as possible. I have achieved this by:
 - Using semantic HTML.
-- Added meta data characteristics for optimizing SEO.
+- Added metadata characteristics for optimizing SEO.
 - Using descriptive alt attributes on images on the site.
 - Ensuring menus are accessible by underlining the nav links for screen readers.
-- Using "hover" function on the sign up submit button.
+- Use the "hover" function on the sign-up submit button.
 
 ## Technologies Used
 
@@ -161,7 +161,7 @@ Images:
 
 - Font Awesome - For the iconography on the website.
 
-- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- Google Dev Tools - To troubleshoot and test features, and solve issues with responsiveness and styling.
 
 - Tiny PNG - To compress images.
 
@@ -184,7 +184,7 @@ Deployment should be confirmed by a message on a green background saying "Your s
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+Include instructions here on how to deploy your project. For your first project, you will most likely be using GitHub Pages.
 
 ### Local Development
 
@@ -215,10 +215,10 @@ Include instructions here on how to deploy your project. For your first project 
   - The link to the bike tour is clearly visible and which days it is scheduled for, also the navbar shows the user that you can rent a bike.
 
 - As a user, I want to be able to access information where I can address questions and how to get in contact with the service provider.
--  The links for "contact" "and about us" is positioned at upper right position on desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
+-  The links for "contact" "and about us" are positioned at the upper right position on the desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
 
 As a user, I want to be able to be able to find the business location and to understand the scope of the tour.
-- The map of the tour is placed directly under the landing page making it easy is clearly visible, the start of the tour is indicated on the map with a big red marker and the tour direction with including stops is presented as numbers (1-7).
+- The map of the tour is placed directly under the landing page making it easy to be clearly visible, the start of the tour is indicated on the map with a big red marker, and the tour direction with including stops is presented as numbers (1-7).
   
 - Validator Testing
   -  HTML
@@ -236,7 +236,7 @@ As a user, I want to be able to be able to find the business location and to und
 
 - Form Testing
   - The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
- - It also checks that correct quantity is written in the rent a bike section of the form.
+ - It also checks that the correct quantity is written in the rent-a-bike section of the form.
 
 - Links Testing
  - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
@@ -244,10 +244,10 @@ As a user, I want to be able to be able to find the business location and to und
  - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
 
 - Browser Testing
-The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+The Website was tested on Google Chrome, Firefox, Microsoft Edge, and Safari browsers with no issues noted.
 
 - Device Testing
-The website was viewed on a variety of devices such as Laptop, iPhone 11, iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+The website was viewed on a variety of devices such as Laptop, iPhone 11, and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 
 I also used the following website to test responsiveness:
 - Responsinator
@@ -257,13 +257,13 @@ I also used the following website to test responsiveness:
   - A problem with the footer was detected when trying to fixate it in the bottom of the page. At first it was possible to fixate it but then it covered other content above it. To solve it an instruction on a website had proper advice to on how to solve it by using the "flex-grow" which keeps the footer in the bottom of the page.
 
 - Known Bugs/compromise
-- A "to the top" button with a smooth behaviour would have been preferred to include in the site, however since I do not have any experience so far with JavaScript and judging from best practice to implement in a rational way java would be required, this is something I am currently unable to implement, but would like to add to the website in a future update.
+- A "to the top" button with smooth behaviour would have been preferred to include in the site, however since I do not have any experience so far with JavaScript and judging from best practices to implement in a rational way java would be required, this is something I am currently unable to implement but would like to add to the website in a future update.
 
 ## Credits
 ### Code Used
 
 - Specific coding
-  - For handling header and nav elements to make a column and center the website [adiati.com](https://adiati.com/how-to-create-a-responsive-navigation-bar-with-flexbox-and-media-queries) was an important contributor to solve the media query set up for smaller screens. In the section "Make The Navbar Responsive With Media Queries" partly the code shown was used in my website. The code can be found by searching on the class ". header-container" in the css file
+  - For handling header and nav elements to make a column and center the website [adiati.com](https://adiati.com/how-to-create-a-responsive-navigation-bar-with-flexbox-and-media-queries) was an important contributor to solve the media query set up for smaller screens. In the section "Make The Navbar Responsive With Media Queries" partly the code shown was used on my website. The code can be found by searching on the class ". header-container" in the css file
 
  - General coding
    - For inspiration and tips the major sources were:
@@ -285,7 +285,7 @@ The content is done by me, from idea to deployment.
 - No author  [Ebike 26”](https://unsplash.com/photos/eh64UHZ2m5Y)
 
 - [OpenStreetMap](https://www.openstreetmap.org/copyright) (Gothenburg tour map)
-I like to link back to the source where I found the media, and include where on the site the image is used.
+I like to link back to the source where I found the media and include where on the site the image is used.
   
 ### Acknowledgments
 
