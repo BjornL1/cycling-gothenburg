@@ -46,8 +46,8 @@ Bicycling has become more popular in recent years in Gothenburg, combined with a
 
 - __Key goals for the site__
 
-- To offer a bike tour through the city by providing an easily accessible website. 
-- To offer a platform for social events and flexibility to adapt for customer/user input.
+  - To offer a bike tour through the city by providing an easily accessible website. 
+  - To offer a platform for social events and flexibility to adapt for customer/user input.
 
 ### User Stories
 
@@ -102,8 +102,8 @@ Images:
 
 - The website is comprised of 6 sections: 
  - Landing page
-  - Navigation bar 
-  - Separate link to access the sign up page directly
+   - Navigation bar 
+   - Separate link to access the sign up page directly
  - Bike tour content
  - About us
  - Fixed tour
@@ -153,24 +153,24 @@ Images:
 - HTML5
 - CSS
 ### Frameworks, Libraries & Programs Used
-- Balsamiq - Used to create wireframes.
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 - Git - For version control.
 - Github - To save and store the files for the website.
 
-- Google Fonts - To import the fonts used on the website.
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- Font Awesome - For the iconography on the website.
+- [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
 
-- Google Dev Tools - To troubleshoot and test features, and solve issues with responsiveness and styling.
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, and solve issues with responsiveness and styling.
 
-- Tiny PNG - To compress images.
+- [TinyPNG](https://tinypng.com/) - To compress images.
 
-- Resize Pexel - To resize images and change to webp format.
+- [Resize Pexel](https://www.resizepixel.com/) - To resize images and change to webp format.
 
-- Favicon.io To create favicon.
+- [Favicon.io](https://favicon.io/) To create favicon.
 
-- Am I Responsive? & Responsinator - To show the website image on a range of devices.
-
+- [Am I Responsive](https://ui.dev/amiresponsive) & [Responsinator](http://www.responsinator.com/) - To show the website image on a range of devices.
+  
 ## Deployment & Local Development
 
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
@@ -215,7 +215,7 @@ Include instructions here on how to deploy your project. For your first project,
   - The link to the bike tour is clearly visible and which days it is scheduled for, also the navbar shows the user that you can rent a bike.
 
 - As a user, I want to be able to access information where I can address questions and how to get in contact with the service provider.
--  The links for "contact" "and about us" are positioned at the upper right position on the desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
+  -  The links for "contact" "and about us" are positioned at the upper right position on the desktop version and centered just above the landing page on smaller screen devices for accessibility reasons.
 
 As a user, I want to be able to be able to find the business location and to understand the scope of the tour.
 - The map of the tour is placed directly under the landing page making it easy to be clearly visible, the starting point of the tour is indicated on the map with a big red marker, and the tour direction including stops is presented as numbers (1-7).
@@ -237,18 +237,18 @@ As a user, I want to be able to be able to find the business location and to und
 
 - Form Testing
   - The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
- - It also checks that the correct quantity is written in the rent-a-bike section of the form.
+  - It also checks that the correct quantity is written in the rent-a-bike section of the form.
 
 - Links Testing
- - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+  - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
 
- - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
+  - Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
 
 - Browser Testing
-The Website was tested on Google Chrome, Firefox, Microsoft Edge, and Safari browsers with no issues noted.
+  - The Website was tested on Google Chrome, Firefox, Microsoft Edge, and Safari browsers with no issues noted.
 
 - Device Testing
-The website was viewed on a variety of devices such as Laptop, iPhone 11, and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+  - The website was viewed on a variety of devices such as Laptop, iPhone 11, and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 
 I also used the following website to test responsiveness:
 - Responsinator
@@ -258,10 +258,10 @@ I also used the following website to test responsiveness:
   - A problem with the footer was detected when trying to fixate it in the bottom of the page. At first it was possible to fixate it but then it covered other content above it. To solve it an instruction on a website had proper advice to on how to solve it by using the "flex-grow" which keeps the footer in the bottom of the page.
 
 - Known Bugs/compromise
-- A "to the top" button with smooth behaviour would have been preferred to include in the site, however since I do not have any experience so far with JavaScript and judging from best practices to implement in a rational way java would be required, this is something I am currently unable to implement but would like to add to the website in a future update.
+  - A "to the top" button with smooth behaviour would have been preferred to include in the site, however since I do not have any experience so far with JavaScript and judging from best practices to implement in a rational way java would be required, this is something I am currently unable to implement but would like to add to the website in a future update.
 
 ## Credits
-### Code Used
+### Code Used 
 
 - Specific coding
   - For handling header and nav elements to make a column and center the website [adiati.com](https://adiati.com/how-to-create-a-responsive-navigation-bar-with-flexbox-and-media-queries) was an important contributor to solve the media query set up for smaller screens. In the section "Make The Navbar Responsive With Media Queries" partly the code shown was used on my website. The code can be found by searching on the class ". header-container" in the css file
@@ -278,12 +278,12 @@ The content is done by me, from idea to deployment.
 ### Media
 
 - Pexels
-- No author - Silhouette-of-person-riding-a-bike-during-sunset [hero image](https://www.pexels.com/photo/silhouette-of-person-riding-a-bike-during-sunset-37836/)
-- Philipp M -  [Standard bike 28”](https://www.pexels.com/photo/black-and-white-hardtail-bike-on-brown-road-between-trees-100582/)
-- Adam Dubec [Standard bike 26”](https://www.pexels.com/photo/red-cruiser-bike-1595476/)
-- Abdulmomen Bsruki [Ebike 28”](https://www.pexels.com/sv-se/foto/gras-cykel-varumarke-produktfotografering-13989110/)
+  - No author - Silhouette-of-person-riding-a-bike-during-sunset [hero image](https://www.pexels.com/photo/silhouette-of-person-riding-a-bike-during-sunset-37836/)
+  - Philipp M -  [Standard bike 28”](https://www.pexels.com/photo/black-and-white-hardtail-bike-on-brown-road-between-trees-100582/)
+  - Adam Dubec [Standard bike 26”](https://www.pexels.com/photo/red-cruiser-bike-1595476/)
+  - Abdulmomen Bsruki [Ebike 28”](https://www.pexels.com/sv-se/foto/gras-cykel-varumarke-produktfotografering-13989110/)
 - Unsplash
-- No author  [Ebike 26”](https://unsplash.com/photos/eh64UHZ2m5Y)
+  - No author  [Ebike 26”](https://unsplash.com/photos/eh64UHZ2m5Y)
 
 - [OpenStreetMap](https://www.openstreetmap.org/copyright) (Gothenburg tour map)
  
