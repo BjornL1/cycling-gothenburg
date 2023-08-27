@@ -83,7 +83,7 @@ The imagery is a fundamental aspect of the site, since the service provided is p
 
 Images:
 - The landing page and rent a bike section are from pexels.
-- The Gothenburg city map is from open street map.
+- The Gothenburg city map is from open street map (see reference in the credits section).
 - All other pictures are taken by me.
 
 ### Wireframes
@@ -115,23 +115,23 @@ Images:
   -  The header and navigation bar are adapted to media queries, once viewed on a smaller device the navbar will be placed under the header and both header and navbar will be centered for promoting consistency in the display of the items and avoiding interference between them.
 
   - A link to the sign-up form is displayed close to the top center, the purpose of the element is to draw attention to the link since it stands out from the page and leads directly to the link to sign-up form for the users.
-
+[](navbar_tourlink.png)
 - Bike tour content
   - In this section, the main content is presented to the user, it follows directly after the main page. The first image displayed is an overview of the Gothenburg city tour, the following content illustrates each tour section in the order following the route. For each image, there is a brief description of the different stops that are included in the tour. For smaller screens, the content is displayed as a row the information text is followed by the image for each tour stop, and by presenting the information in a row the image can be kept with a size making the image content clearly visible.
-
+[](biketour_content_.png)
   - About Us. This section includes a subsection for the sign-up form for fixed tours. The first section is a description of the background of the webpage and what service is provided, after the introduction the subsection follows with the sign-up form.  
   - Fixed tour sign-up form
     - In this form, the user can submit a sign-up form to join the fixed tour, the form also includes the possibility to rent different bikes. The name and email fields are required to be filled in whereas the bike field is optional, however, there is a set quantity between 1 to 5 bikes preventing the user to not adding copious quantities by mistake. Furthermore, there is a link to the rent a bike in the form field allowing the user to quickly check which bikes are available before sending the form.
-    
+[](aboutus_tour_.png)    
 - Rent a bike
   - This section includes the bikes provided by Gothenburg cycling trips, a table shows the cost of renting a bike. Below the table, a paragraph is placed at the top of each bike image.
  On smaller screens, the bike images are adapted by a media query to display a row instead of a horizontal alignment to fit the content properly.
-
+[](rent_a_bike.png)
 - Contact
   - The contact section includes an address field but also phone and mail information, the latter is prepared with a link enabling the user to access a prepared mail link to improve accessibility. 
 
 - A footer that contains social media links to Facebook, Twitter, and YouTube. Using icons in the footer can be kept clean and because they are universally recognizable.
-
+[](contact_footer.png)
 
 ### Future Implementations
   - Use JavaScript to add a "to top" button with a solid smooth scroll function.  
