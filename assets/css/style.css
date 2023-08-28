@@ -14,6 +14,8 @@ main {
     flex-grow: 1;
 }
 
+/* Header and navbar */
+
 .header-container {
     width: 100%;
     margin: 0 auto;
@@ -106,6 +108,8 @@ a:hover {
     font-size: 2.5vw;
 }
 
+/* Toursection */
+
 .image-text-aside {
     display: flex;
     margin-left: 2%;
@@ -144,6 +148,8 @@ label {
     display: inline-block;
     width: 150px;
 }
+
+/* Sign up form */
 
 #signup-outerboarder {
     border-width: 5px;
@@ -215,6 +221,7 @@ footer {
     padding: 5%;
     color: white;
 }
+/* Media query for ipad/larger mobilephone */
 
 @media screen and (max-width: 960px) {
     .header-container {
@@ -275,7 +282,7 @@ footer {
         margin-top: 0;
         margin-left: 2%;
     }
-
+/* Media query for medium-small mobilephone */
     @media screen and (max-width: 499px) {
         h1 {
             font-size: 8vw;
@@ -290,7 +297,7 @@ footer {
         }
     }
 }
-
+/* Media query for smallest display */
 @media screen and (max-width: 319px) {
     h1 {
         font-size: 8vw;
