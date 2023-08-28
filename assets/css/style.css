@@ -170,6 +170,8 @@ label {
 h3 {
     margin-left: 2%;
 }
+
+/* Rent a bike tables and layout */
 table,
 th,
 td {
@@ -221,8 +223,8 @@ footer {
     padding: 5%;
     color: white;
 }
-/* Media query for ipad/larger mobilephone */
 
+/* Media query for ipad/larger mobilephone */
 @media screen and (max-width: 960px) {
     .header-container {
         flex-direction: column;
@@ -282,6 +284,7 @@ footer {
         margin-top: 0;
         margin-left: 2%;
     }
+    
 /* Media query for medium-small mobilephone */
     @media screen and (max-width: 499px) {
         h1 {
@@ -297,6 +300,7 @@ footer {
         }
     }
 }
+
 /* Media query for smallest display */
 @media screen and (max-width: 319px) {
     h1 {
