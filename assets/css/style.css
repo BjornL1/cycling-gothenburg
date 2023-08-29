@@ -22,6 +22,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 200;
+    background: white;
+    padding-top: 0px;
+
 }
 .header {
     font-family: "Bebas Neue", sans-serif;
@@ -76,6 +81,7 @@ a:hover {
 .hero-image-container {
     position: relative;
     font: bolder;
+    padding-top: 150px;
 }
 #hero-image {
     display: flex;
@@ -95,7 +101,7 @@ a:hover {
 .fixed-tour {
     position: absolute;
     text-align: left;
-    top: 20%;
+    bottom: 35%
     right: 2%;
     margin: auto;
     transform: translateY(-50%);
@@ -225,7 +231,7 @@ footer {
 }
 
 /* Media query for ipad/larger mobilephone */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1060px) {
     .header-container {
         flex-direction: column;
         text-align: center;
@@ -243,7 +249,6 @@ footer {
         margin: 0.2em 0;
         padding: 0px 15px 0px 15px;
     }
-
     .fixed-tour {
         font-size: 2.5vw;
         padding-bottom: 0;
@@ -272,7 +277,7 @@ footer {
     }
 
     .image-width-rab {
-        width: 500px;
+        max-width: 60vw;
         height: auto;
         margin-left: 0;
     }
@@ -285,8 +290,22 @@ footer {
         margin-left: 2%;
     }
     
+    relative;
+    font: bolder;
+    padding-top: 180px;
+    }
+    .header-navbar {
+    font-size: 25px;
+    margin-right: 0;
+    }
+    #aboutus {
+    padding-top: 140px;
+    margin-top: calc(-140px + 0.1em);
+}
+
+    
 /* Media query for medium-small mobilephone */
-    @media screen and (max-width: 499px) {
+    @media screen and (max-width: 524px) {
         h1 {
             font-size: 8vw;
         }
@@ -298,6 +317,14 @@ footer {
         nav li {
             font-size: 0.8rem;
         }
+        .hero-image-container {
+        position: relative;
+        padding-top: 100px;
+        }
+        .fixed-tour {
+        bottom: 28%;
+        }
+
     }
 }
 
@@ -308,5 +335,15 @@ footer {
     }
     nav ul {
         display: inline-block;
+    }
+    .hero-image-container {
+    padding-top: 150px;
+    }
+    #hero-image 
+    {
+    min-width: 300px;
+    }
+    .fixed-tour {
+    bottom: 25%;
     }
 }
