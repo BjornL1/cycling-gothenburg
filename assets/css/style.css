@@ -101,7 +101,7 @@ a:hover {
 .fixed-tour {
     position: absolute;
     text-align: left;
-    bottom: 35%
+    bottom: 35%;
     right: 2%;
     margin: auto;
     transform: translateY(-50%);
@@ -290,10 +290,12 @@ footer {
         margin-left: 2%;
     }
     
-    relative;
+    .hero-image-container {
+    position: relative;
     font: bolder;
     padding-top: 180px;
     }
+    
     .header-navbar {
     font-size: 25px;
     margin-right: 0;
